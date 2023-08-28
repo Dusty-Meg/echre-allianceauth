@@ -1,0 +1,4 @@
+git+https://github.com/pvyParts/allianceauth-corp-tools.git==v2.5.5
+aa-charlink==0.6.1
+allianceauth-securegroups==0.5.1
+aa-package-monitor==v1.12.0
