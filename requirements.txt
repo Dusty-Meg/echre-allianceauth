@@ -3,5 +3,5 @@ aa-charlink==1.0.0
 allianceauth-securegroups==0.5.1
 aa-package-monitor==v1.13.0
 allianceauth-celeryanalytics==0.0.6
-git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.2
+git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.3
 git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.1

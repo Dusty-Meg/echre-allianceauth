@@ -71,7 +71,7 @@ INSTALLED_APPS += [
     'allianceauth.corputils',
     'celeryanalytics',
     'wizardmisc',
-    'wizardskillfarm',
+    #'wizardskillfarm',
     # https://allianceauth.readthedocs.io/en/latest/features/apps/index.html
     # 'allianceauth.corputils',
     # 'allianceauth.eveonline.autogroups',
