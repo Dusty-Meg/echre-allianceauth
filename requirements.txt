@@ -1,7 +1,7 @@
 git+https://github.com/pvyParts/allianceauth-corp-tools.git@2.6.0
 aa-charlink==1.0.0
 allianceauth-securegroups==0.5.1
-aa-package-monitor==v1.14.0
+aa-package-monitor==v1.15.1
 allianceauth-celeryanalytics==0.0.6
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.3
 git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.1
