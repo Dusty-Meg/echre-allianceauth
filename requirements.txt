@@ -1,4 +1,4 @@
-allianceauth-corptools@2.7.0
+allianceauth-corptools==2.7.0
 aa-charlink==1.2.0
 allianceauth-securegroups==0.5.1
 aa-package-monitor==1.15.1
