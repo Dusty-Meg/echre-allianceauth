@@ -71,6 +71,7 @@ INSTALLED_APPS += [
     'allianceauth.corputils',
     'celeryanalytics',
     'wizardmisc',
+    'eveuniverse',
     #'wizardskillfarm',
     # https://allianceauth.readthedocs.io/en/latest/features/apps/index.html
     # 'allianceauth.corputils',
