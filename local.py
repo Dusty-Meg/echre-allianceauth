@@ -73,7 +73,7 @@ INSTALLED_APPS += [
     'wizardmisc',
     'eveuniverse',
     'wizardskillfarm',
-    'marketmanager,
+    'marketmanager',
 ]
 
 #######################################
