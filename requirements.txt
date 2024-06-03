@@ -5,5 +5,5 @@ aa-package-monitor==1.15.1
 allianceauth-celeryanalytics==0.0.6
 django-eveuniverse==1.5.4
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.7
-git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.17
+git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.18
 aa-market-manager==0.19.1
