@@ -1,5 +1,5 @@
 allianceauth-corptools==2.7.0
-aa-charlink==1.5.0
+aa-charlink==1.5.1
 allianceauth-securegroups==0.5.1
 aa-package-monitor==1.17.0
 allianceauth-celeryanalytics==0.0.6
