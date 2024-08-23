@@ -1,6 +1,6 @@
 allianceauth-corptools==2.8.0
 aa-charlink==1.5.1
-allianceauth-securegroups==0.5.1
+allianceauth-securegroups==0.6.0
 aa-package-monitor==1.17.3
 allianceauth-celeryanalytics==0.0.6
 django-eveuniverse==1.5.5
