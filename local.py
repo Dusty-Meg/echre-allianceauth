@@ -64,6 +64,7 @@ CACHES = {
 # Add any additional apps to this list.
 INSTALLED_APPS += [
     'corptools',
+    'pinger',
     'securegroups',
     'charlink',
     'package_monitor',
