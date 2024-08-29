@@ -86,6 +86,7 @@ CELERYBEAT_SCHEDULE['package_monitor_update_distributions'] = {
     'schedule': crontab(minute='*/60'),
 }
 
+
 DISCORD_GUILD_ID = os.environ.get("DISCORD_GUILD_ID")
 DISCORD_CALLBACK_URL = f"{SITE_URL}/discord/callback/"
 DISCORD_APP_ID = os.environ.get("DISCORD_APP_ID")
@@ -99,7 +100,7 @@ CELERYBEAT_SCHEDULE['discord.update_all_usernames'] = {
     'task': 'discord.update_all_usernames',
     'schedule': crontab(minute='0', hour='*/12'),
 }
-
+PACKAGE_MONITOR_SHOW_ALL_PACKAGES = False
 JABBERBOT_URL = os.environ.get("JABBERBOT_URL")
 HR_FORUM_WEBHOOK = os.environ.get("HR_FORUM_WEBHOOK")
 
