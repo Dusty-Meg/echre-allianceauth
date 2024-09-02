@@ -28,6 +28,7 @@ DATABASES["default"] = {
 # Logging in to auth requires the publicData scope (can be overridden through the
 # LOGIN_TOKEN_SCOPES setting). Other apps may require more (see their docs).
 
+
 ESI_SSO_CLIENT_ID = os.environ.get("ESI_SSO_CLIENT_ID")
 ESI_SSO_CLIENT_SECRET = os.environ.get("ESI_SSO_CLIENT_SECRET")
 ESI_SSO_CALLBACK_URL = f"{SITE_URL}/sso/callback"
