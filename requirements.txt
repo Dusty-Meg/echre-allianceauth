@@ -8,3 +8,4 @@ django-eveuniverse==1.5.5
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.7
 git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.23
 aa-market-manager==1.0.2
+aa-blueprints==1.7.0

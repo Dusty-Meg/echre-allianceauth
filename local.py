@@ -76,6 +76,7 @@ INSTALLED_APPS += [
     'eveuniverse',
     'wizardskillfarm',
     'marketmanager',
+    'blueprints',
 ]
 
 #######################################
@@ -152,4 +153,19 @@ CELERYBEAT_SCHEDULE['marketmanager_update_all_type_statistics'] = {
 CELERYBEAT_SCHEDULE['marketmanager_garbage_collection'] = {
     'task': 'marketmanager.tasks.garbage_collection',
     'schedule': crontab(minute='0', hour=0),
+}
+
+
+## Settings for AA-Blueprints
+CELERYBEAT_SCHEDULE['blueprints_update_all_blueprints'] = {
+    'task': 'blueprints.tasks.update_all_blueprints',
+    'schedule': crontab(minute=0, hour='*/3'),
+}
+CELERYBEAT_SCHEDULE['blueprints_update_all_industry_jobs'] = {
+    'task': 'blueprints.tasks.update_all_industry_jobs',
+    'schedule': crontab(minute=0, hour='*'),
+}
+CELERYBEAT_SCHEDULE['blueprints_update_all_locations'] = {
+    'task': 'blueprints.tasks.update_all_locations',
+    'schedule': crontab(minute=0, hour='*/12'),
 }
