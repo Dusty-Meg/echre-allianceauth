@@ -77,6 +77,7 @@ INSTALLED_APPS += [
     'wizardskillfarm',
     'marketmanager',
     'blueprints',
+    'wizardindustry',
 ]
 
 #######################################
