@@ -78,6 +78,8 @@ INSTALLED_APPS += [
     'marketmanager',
     'blueprints',
     'wizardindustry',
+    'discordproxy',
+    'discordnotify',
 ]
 
 #######################################
