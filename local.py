@@ -99,6 +99,8 @@ DISCORD_APP_SECRET = os.environ.get("DISCORD_APP_SECRET")
 DISCORD_BOT_TOKEN = os.environ.get("DISCORD_BOT_TOKEN")
 DISCORD_SYNC_NAMES = False
 
+DISCORDPROXY_HOST = os.environ.get("DISCORDPROXY_HOST")
+
 CELERYBEAT_SCHEDULE['discord.update_all_usernames'] = {
     'task': 'discord.update_all_usernames',
     'schedule': crontab(minute='0', hour='*/12'),
