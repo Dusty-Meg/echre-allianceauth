@@ -80,6 +80,8 @@ INSTALLED_APPS += [
     'wizardindustry',
     'discordproxy',
     'discordnotify',
+    'miningtaxes',
+    'django_celery_results',
 ]
 
 #######################################
@@ -174,3 +176,20 @@ CELERYBEAT_SCHEDULE['blueprints_update_all_locations'] = {
     'task': 'blueprints.tasks.update_all_locations',
     'schedule': crontab(minute=0, hour='*/12'),
 }
+
+
+## Settings for AA-MiningTaxes
+CELERY_RESULT_BACKEND = 'django-db'
+CELERY_CACHE_BACKEND = 'django-cache'
+
+CELERYBEAT_SCHEDULE['miningtaxes_update_daily'] = {
+    'task': 'miningtaxes.tasks.update_daily',
+    'schedule':  crontab(minute=0, hour='1'),
+}
+
+# Notifiy everyone of their current taxes on the second day of every month.
+CELERYBEAT_SCHEDULE['miningtaxes_notifications'] = {
+    'task': 'miningtaxes.tasks.notify_taxes_due',
+    'schedule': crontab(0, 0, day_of_month='2'),
+}
+
