@@ -82,6 +82,7 @@ INSTALLED_APPS += [
     'discordnotify',
     'miningtaxes',
     'django_celery_results',
+    'moonmining',
 ]
 
 #######################################
@@ -193,3 +194,17 @@ CELERYBEAT_SCHEDULE['miningtaxes_notifications'] = {
     'schedule': crontab(0, 0, day_of_month='2'),
 }
 
+
+## Settings for AA-Moonmining
+CELERYBEAT_SCHEDULE['moonmining_run_regular_updates'] = {
+    'task': 'moonmining.tasks.run_regular_updates',
+    'schedule': crontab(minute='*/10'),
+}
+CELERYBEAT_SCHEDULE['moonmining_run_report_updates'] = {
+    'task': 'moonmining.tasks.run_report_updates',
+    'schedule': crontab(minute=30, hour='*/1'),
+}
+CELERYBEAT_SCHEDULE['moonmining_run_value_updates'] = {
+ 'task': 'moonmining.tasks.run_calculated_properties_update',
+ 'schedule': crontab(minute=30, hour=3)
+}
