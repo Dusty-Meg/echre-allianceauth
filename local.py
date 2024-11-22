@@ -208,3 +208,10 @@ CELERYBEAT_SCHEDULE['moonmining_run_value_updates'] = {
  'task': 'moonmining.tasks.run_calculated_properties_update',
  'schedule': crontab(minute=30, hour=3)
 }
+
+
+## Settings for corporationstats
+CELERYBEAT_SCHEDULE['update_all_corpstats'] = {
+    'task': 'allianceauth.corputils.tasks.update_all_corpstats',
+    'schedule': crontab(day_of_month="1", hour=0, minute=32),
+}
