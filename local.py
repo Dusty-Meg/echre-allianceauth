@@ -88,7 +88,7 @@ INSTALLED_APPS += [
 #######################################
 # Add any custom settings below here. #
 #######################################
-
+CHARLINK_IGNORE_APPS=["miningtaxes.admin"]
 CELERYBEAT_SCHEDULE['package_monitor_update_distributions'] = {
     'task': 'package_monitor.tasks.update_distributions',
     'schedule': crontab(minute='*/60'),
