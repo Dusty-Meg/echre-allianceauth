@@ -4,7 +4,7 @@ aa-charlink==1.8.0
 allianceauth-securegroups==0.7.0
 aa-package-monitor==2.0.0
 allianceauth-celeryanalytics==0.0.6
-django-eveuniverse==1.5.5
+django-eveuniverse==1.5.6
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.7
 git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.23
 git+https://github.com/Dusty-Meg/aa-wizard-industry.git@v0.0.2
