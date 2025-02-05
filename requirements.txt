@@ -12,5 +12,5 @@ aa-market-manager==1.0.3
 aa-blueprints==1.7.0
 discordproxy==1.3.2
 aa-discordnotify==2.0.0
-aa-miningtaxes==1.4.25
+aa-miningtaxes==1.4.26
 aa-moonmining==1.11.1
