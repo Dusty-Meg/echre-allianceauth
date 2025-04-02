@@ -183,6 +183,8 @@ CELERYBEAT_SCHEDULE['blueprints_update_all_locations'] = {
 CELERY_RESULT_BACKEND = 'django-db'
 CELERY_CACHE_BACKEND = 'django-cache'
 
+MININGTAXES_UNKNOWN_TAX_RATE = 0
+
 CELERYBEAT_SCHEDULE['miningtaxes_update_daily'] = {
     'task': 'miningtaxes.tasks.update_daily',
     'schedule':  crontab(minute=0, hour='1'),
