@@ -2,7 +2,7 @@ allianceauth-corptools==2.10.3
 allianceauth-corptools-pinger==0.6.0
 aa-charlink==1.10.0
 allianceauth-securegroups==0.7.0
-aa-package-monitor==2.0.0
+aa-package-monitor==2.2.0
 allianceauth-celeryanalytics==0.0.6
 django-eveuniverse==1.5.7
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.8
