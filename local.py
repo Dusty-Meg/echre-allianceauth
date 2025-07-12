@@ -83,6 +83,8 @@ INSTALLED_APPS += [
     'miningtaxes',
     'django_celery_results',
     'moonmining',
+    'structuretimers',
+    'structures',
 ]
 
 #######################################
@@ -217,4 +219,22 @@ CELERYBEAT_SCHEDULE['moonmining_run_value_updates'] = {
 CELERYBEAT_SCHEDULE['update_all_corpstats'] = {
     'task': 'allianceauth.corputils.tasks.update_all_corpstats',
     'schedule': crontab(day_of_month="1", hour=0, minute=32),
+}
+
+
+## Settings for Structure Timers
+CELERYBEAT_SCHEDULE['structuretimers_housekeeping'] = {
+    'task': 'structuretimers.tasks.housekeeping',
+    'schedule': crontab(minute=0, hour=3),
+}
+
+
+## Settings for Structures 
+CELERYBEAT_SCHEDULE['structures_update_all_structures'] = {
+    'task': 'structures.tasks.update_all_structures',
+    'schedule': crontab(minute='*/30'),
+}
+CELERYBEAT_SCHEDULE['structures_fetch_all_notifications'] = {
+    'task': 'structures.tasks.fetch_all_notifications',
+    'schedule': crontab(minute='*/5'),
 }
