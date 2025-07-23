@@ -85,6 +85,7 @@ INSTALLED_APPS += [
     'moonmining',
     'structuretimers',
     'structures',
+    'buybackprogram',
 ]
 
 #######################################
@@ -237,4 +238,21 @@ CELERYBEAT_SCHEDULE['structures_update_all_structures'] = {
 CELERYBEAT_SCHEDULE['structures_fetch_all_notifications'] = {
     'task': 'structures.tasks.fetch_all_notifications',
     'schedule': 300,
+}
+
+
+## Settings for Structures
+CELERYBEAT_SCHEDULE['buybackprogram_update_all_prices'] = {
+    'task': 'buybackprogram.tasks.update_all_prices',
+    'schedule': crontab(minute=0, hour='0'),
+}
+
+CELERYBEAT_SCHEDULE['buybackprogram_update_all_contracts'] = {
+    'task': 'buybackprogram.tasks.update_all_contracts',
+    'schedule': 1800,
+}
+
+CELERYBEAT_SCHEDULE['buybackprogram_update_program_performance'] = {
+    'task': 'buybackprogram.tasks.update_program_performance',
+    'schedule': crontab(minute=0, hour='0'),
 }
