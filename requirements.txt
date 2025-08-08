@@ -16,7 +16,9 @@ aa-discordnotify==2.0.1
 aa-miningtaxes==1.4.31
 aa-moonmining==2.1.0
 aa-structures==3.1.0
-aa-structuretimers==2.0.0
+# aa-structuretimers==2.0.0
+git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the code is merged
 aa-buybackprogram==2.3.2
+
 
 
