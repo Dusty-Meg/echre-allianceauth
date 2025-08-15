@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/allianceauth/allianceauth/auth:v4.8
+FROM registry.gitlab.com/allianceauth/allianceauth/auth:v4.9
 
 RUN cd /home/allianceauth
 COPY requirements.txt requirements.txt
