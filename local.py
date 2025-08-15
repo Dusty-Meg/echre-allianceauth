@@ -203,7 +203,7 @@ CELERYBEAT_SCHEDULE['miningtaxes_notifications'] = {
 
 ## Settings for AA-Moonmining
 MOONMINING_REPROCESSING_YIELD = 0.9062
-MOONMINING_USE_REPROCESS_PRICING = true
+MOONMINING_USE_REPROCESS_PRICING = True
 
 CELERYBEAT_SCHEDULE['moonmining_run_regular_updates'] = {
     'task': 'moonmining.tasks.run_regular_updates',
