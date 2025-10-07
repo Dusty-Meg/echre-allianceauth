@@ -86,6 +86,7 @@ INSTALLED_APPS += [
     'structuretimers',
     'structures',
     'buybackprogram',
+    'taskmonitor',
 ]
 
 #######################################
