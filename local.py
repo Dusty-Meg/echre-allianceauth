@@ -87,6 +87,7 @@ INSTALLED_APPS += [
     'structures',
     'buybackprogram',
     'taskmonitor',
+    'secretsanta',
 ]
 
 #######################################
