@@ -1,4 +1,4 @@
-allianceauth-corptools==2.12.0
+allianceauth-corptools==2.13.0
 allianceauth-corptools-pinger==0.6.1
 aa-charlink==1.11.0
 allianceauth-securegroups==0.8.0
