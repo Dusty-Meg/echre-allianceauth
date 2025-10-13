@@ -21,5 +21,4 @@ git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the cod
 aa-buybackprogram==2.3.2
 aa-taskmonitor==0.23.1
 pydantic==2.11.10
-
-
+aa-secret-santa==1.0.0
