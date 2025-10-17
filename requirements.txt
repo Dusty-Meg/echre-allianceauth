@@ -18,8 +18,9 @@ aa-moonmining==2.2.0
 aa-structures==3.2.0
 # aa-structuretimers==2.0.0
 git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the code is merged
-aa-buybackprogram==2.3.2
+aa-buybackprogram==2.3.3
 aa-taskmonitor==0.23.1
 pydantic==2.11.10
 aa-secret-santa==1.0.0
+
 
