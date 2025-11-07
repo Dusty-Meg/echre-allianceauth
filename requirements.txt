@@ -10,7 +10,7 @@ git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.21
 git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.23
 git+https://github.com/Dusty-Meg/aa-wizard-industry.git@v0.0.3
 aa-market-manager==1.0.6
-aa-blueprints==1.8.0
+aa-blueprints==2.0.0
 discordproxy==1.4.0
 aa-discordnotify==3.0.0
 aa-miningtaxes==1.4.31
@@ -22,5 +22,6 @@ aa-buybackprogram==2.3.3
 aa-taskmonitor==0.23.1
 pydantic==2.11.10
 aa-secret-santa==1.0.0
+
 
 
