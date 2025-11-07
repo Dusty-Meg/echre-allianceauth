@@ -14,7 +14,7 @@ aa-blueprints==1.8.0
 discordproxy==1.4.0
 aa-discordnotify==3.0.0
 aa-miningtaxes==1.4.31
-aa-moonmining==2.2.0
+aa-moonmining==2.2.2
 aa-structures==3.2.2
 # aa-structuretimers==2.0.0
 git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the code is merged
