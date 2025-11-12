@@ -6,7 +6,7 @@ aa-package-monitor==2.2.2
 allianceauth-celeryanalytics==0.0.6
 django-eveuniverse==1.6.0
 django-esi==7.0.1
-git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.21
+git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.22
 git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.23
 git+https://github.com/Dusty-Meg/aa-wizard-industry.git@v0.0.3
 aa-market-manager==1.0.6
@@ -21,4 +21,5 @@ git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the cod
 aa-buybackprogram==2.3.3
 aa-taskmonitor==0.23.1
 aa-secret-santa==1.0.0
+
 
