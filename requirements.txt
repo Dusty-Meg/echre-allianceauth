@@ -1,6 +1,6 @@
 allianceauth-corptools==2.14.0
 allianceauth-corptools-pinger==0.6.2
-aa-charlink==1.11.0
+aa-charlink==1.11.1
 allianceauth-securegroups==0.8.0
 aa-package-monitor==2.2.2
 allianceauth-celeryanalytics==0.0.6
@@ -21,5 +21,6 @@ git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the cod
 aa-buybackprogram==2.3.3
 aa-taskmonitor==0.23.1
 aa-secret-santa==1.0.0
+
 
 
