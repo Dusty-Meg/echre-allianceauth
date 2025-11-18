@@ -20,5 +20,5 @@ aa-structures==3.3.1
 git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the code is merged
 aa-buybackprogram==2.3.3
 aa-taskmonitor==0.23.1
-aa-secret-santa==1.0.0
+aa-secret-santa==1.0.1
 django-ninja<1.5.0
