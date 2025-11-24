@@ -5,7 +5,7 @@ allianceauth-securegroups==0.8.0
 aa-package-monitor==2.3.0
 allianceauth-celeryanalytics==0.0.7
 django-eveuniverse==1.6.0
-django-esi==8.0.0
+# django-esi==8.0.0
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.22
 git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.23
 git+https://github.com/Dusty-Meg/aa-wizard-industry.git@v0.0.3
@@ -22,5 +22,6 @@ aa-buybackprogram==2.3.3
 aa-taskmonitor==0.23.1
 aa-secret-santa==1.0.1
 django-ninja<1.5.0
+
 
 
