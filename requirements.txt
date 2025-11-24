@@ -2,7 +2,7 @@ allianceauth-corptools==2.15.1
 allianceauth-corptools-pinger==0.6.2
 aa-charlink==1.11.1
 allianceauth-securegroups==0.8.0
-aa-package-monitor==2.2.2
+aa-package-monitor==2.3.0
 allianceauth-celeryanalytics==0.0.7
 django-eveuniverse==1.6.0
 django-esi==8.0.0
@@ -22,4 +22,5 @@ aa-buybackprogram==2.3.3
 aa-taskmonitor==0.23.1
 aa-secret-santa==1.0.1
 django-ninja<1.5.0
+
 
