@@ -1,4 +1,4 @@
-allianceauth-corptools==2.15.2
+allianceauth-corptools==3.0.0b1
 allianceauth-corptools-pinger==0.6.2
 aa-charlink==1.11.1
 allianceauth-securegroups==0.8.0
@@ -23,6 +23,7 @@ aa-buybackprogram==2.3.3
 aa-taskmonitor==0.23.1
 aa-secret-santa==1.0.1
 django-ninja<1.5.0
+
 
 
 
