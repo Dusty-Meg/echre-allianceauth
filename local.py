@@ -89,6 +89,7 @@ INSTALLED_APPS += [
     'taskmonitor',
     'secretsanta',
     'aa_bb',
+    'aa_contacts',
 ]
 
 #######################################
@@ -261,4 +262,11 @@ CELERYBEAT_SCHEDULE['buybackprogram_update_all_contracts'] = {
 CELERYBEAT_SCHEDULE['buybackprogram_update_program_performance'] = {
     'task': 'buybackprogram.tasks.update_program_performance',
     'schedule': crontab(minute=0, hour='0'),
+}
+
+# AA Contacts
+CELERYBEAT_SCHEDULE['aa_contacts_update_all_contacts'] = {
+    'task': 'aa_contacts.tasks.update_all_contacts',
+    'schedule': crontab(minute='0'),
+    'apply_offset': True,
 }
