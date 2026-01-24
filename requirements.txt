@@ -14,7 +14,7 @@ aa-market-manager==1.0.6
 aa-blueprints==2.1.1
 discordproxy==1.4.0
 aa-discordnotify==3.0.0
-aa-miningtaxes==1.4.34
+aa-miningtaxes==1.4.36
 aa-moonmining==2.3.0
 aa-structures==3.3.1
 # aa-structuretimers==2.0.0
@@ -25,5 +25,6 @@ aa-secret-santa==1.0.1
 django-ninja<1.5.0
 aa-bb==3.2.8
 aa-contacts==0.10.2
+
 
 
