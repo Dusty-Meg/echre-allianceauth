@@ -23,8 +23,9 @@ aa-buybackprogram==2.3.3
 aa-taskmonitor==0.23.1
 aa-secret-santa==1.0.1
 django-ninja<1.5.0
-aa-bb==3.2.9
+aa-bb==3.2.10
 aa-contacts==0.10.2
+
 
 
 
