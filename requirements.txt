@@ -9,7 +9,7 @@ django-eveuniverse==1.6.0 # DUHH  Requires django-eveuniverse
 # django-esi==8.0.0
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.23
 git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.24
-git+https://github.com/Dusty-Meg/aa-wizard-industry.git@v0.0.3 # Requires django-eveuniverse
+git+https://github.com/Dusty-Meg/aa-wizard-industry.git@v0.0.4
 aa-market-manager==1.1.0b1
 aa-blueprints==2.1.1 # Requires django-eveuniverse
 discordproxy==1.4.0
@@ -25,6 +25,7 @@ aa-secret-santa==1.0.1
 aa-bb==3.3.0
 aa-contacts==0.10.2
 django-eveonline-sde==0.0.1b5
+
 
 
 
