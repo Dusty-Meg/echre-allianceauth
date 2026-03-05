@@ -1,30 +1,31 @@
 # allianceauth-corptools==3.0.0b5
 git+https://github.com/Solar-Helix-Independent-Transport/allianceauth-corp-tools.git@3.0.0b5
 allianceauth-corptools-pinger==0.6.3
-aa-charlink==1.12.2
+aa-charlink==1.12.2 # Requires django-eveuniverse
 allianceauth-securegroups==0.9.0
 aa-package-monitor==2.3.0
 allianceauth-celeryanalytics==0.0.8
-django-eveuniverse==1.6.0
+django-eveuniverse==1.6.0 # DUHH  Requires django-eveuniverse
 # django-esi==8.0.0
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.23
-git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.23
-git+https://github.com/Dusty-Meg/aa-wizard-industry.git@v0.0.3
-aa-market-manager==1.0.6
-aa-blueprints==2.1.1
+git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.23 # Requires django-eveuniverse
+git+https://github.com/Dusty-Meg/aa-wizard-industry.git@v0.0.3 # Requires django-eveuniverse
+aa-market-manager==1.0.6 # Requires django-eveuniverse
+aa-blueprints==2.1.1 # Requires django-eveuniverse
 discordproxy==1.4.0
 aa-discordnotify==3.0.0
 aa-miningtaxes==1.4.36
-aa-moonmining==2.3.0
-aa-structures==3.3.1
+aa-moonmining==2.3.0 # Requires django-eveuniverse
+aa-structures==3.3.1 # Requires django-eveuniverse
 # aa-structuretimers==2.0.0
-git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the code is merged
-aa-buybackprogram==2.3.3
+git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the code is merged # Requires django-eveuniverse
+aa-buybackprogram==2.3.3 # Requires django-eveuniverse
 aa-taskmonitor==0.23.1
 aa-secret-santa==1.0.1
 django-ninja<1.5.0
-aa-bb==3.2.10
+aa-bb==3.2.10 # Requires django-eveuniverse
 aa-contacts==0.10.2
+
 
 
 
