@@ -90,7 +90,17 @@ INSTALLED_APPS += [
     'secretsanta',
     'aa_bb',
     'aa_contacts',
+    'eve_sde',
 ]
+
+INSTALLED_APPS = ["modeltranslation"] + INSTALLED_APPS
+
+if "eve_sde" in INSTALLED_APPS:
+    # Run at 12:00 UTC each day
+    CELERYBEAT_SCHEDULE["EVE SDE :: Check for SDE Updates"] = {
+        "task": "eve_sde.tasks.check_for_sde_updates",
+        "schedule": crontab(minute="0", hour="12"),
+    }
 
 #######################################
 # Add any custom settings below here. #
