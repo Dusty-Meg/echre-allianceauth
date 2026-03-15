@@ -1,7 +1,7 @@
 # allianceauth-corptools==3.0.0b5
 git+https://github.com/Solar-Helix-Independent-Transport/allianceauth-corp-tools.git@3.0.0b5
 allianceauth-corptools-pinger==0.6.3
-aa-charlink==1.12.3
+aa-charlink==1.13.0
 allianceauth-securegroups==0.10.0
 aa-package-monitor==2.3.0
 allianceauth-celeryanalytics==0.0.8
