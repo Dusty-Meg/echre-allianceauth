@@ -9,8 +9,7 @@ django-eveuniverse==1.6.0 # DUHH  Requires django-eveuniverse
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.23
 git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.24
 git+https://github.com/Dusty-Meg/aa-wizard-industry.git@v0.0.4
-# aa-market-manager==1.1.0b1 
-git+https://gitlab.com/tactical-supremacy/aa-market-manager.git@v1.1.0b1 # Requires django-eveuniverse
+aa-market-manager==2.0.0
 aa-blueprints==2.1.1 # Requires django-eveuniverse
 discordproxy==1.4.0
 aa-discordnotify==3.0.0
