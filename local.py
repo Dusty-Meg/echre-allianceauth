@@ -280,5 +280,3 @@ CELERYBEAT_SCHEDULE['aa_contacts_update_all_contacts'] = {
     'schedule': crontab(minute='0'),
     'apply_offset': True,
 }
-
-INDY_HUB_ESI_COMPATIBILITY_DATE = "2026-03-24"
