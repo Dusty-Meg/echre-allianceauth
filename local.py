@@ -76,7 +76,6 @@ INSTALLED_APPS += [
     'eveuniverse',
     'wizardskillfarm',
     'marketmanager',
-    'blueprints',
     'wizardindustry',
     'discordproxy',
     'discordnotify',
