@@ -12,7 +12,7 @@ git+https://github.com/Dusty-Meg/aa-wizard-industry.git@prod
 aa-market-manager==2.0.0
 discordproxy==1.4.0
 aa-discordnotify==3.0.0
-aa-miningtaxes==1.4.36 # Requires django-eveuniverse
+aa-miningtaxes==1.4.36 # Requires django-eveuniverse 
 aa-moonmining==2.3.0 # Requires django-eveuniverse
 aa-structures==3.3.1 # Requires django-eveuniverse
 # aa-structuretimers==2.0.0
