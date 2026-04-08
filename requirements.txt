@@ -25,3 +25,4 @@ aa-bb==3.3.1
 aa-contacts==0.11.1
 django-eveonline-sde==0.0.1b9
 indy-hub==1.15.1
+django-esi==8.4.0 # Until aa base image updates
