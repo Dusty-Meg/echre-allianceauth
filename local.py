@@ -180,22 +180,6 @@ CELERYBEAT_SCHEDULE['marketmanager_garbage_collection'] = {
     'schedule': crontab(minute='0', hour=0),
 }
 
-
-## Settings for AA-Blueprints
-CELERYBEAT_SCHEDULE['blueprints_update_all_blueprints'] = {
-    'task': 'blueprints.tasks.update_all_blueprints',
-    'schedule': crontab(minute=0, hour='*/3'),
-}
-CELERYBEAT_SCHEDULE['blueprints_update_all_industry_jobs'] = {
-    'task': 'blueprints.tasks.update_all_industry_jobs',
-    'schedule': crontab(minute=0, hour='*'),
-}
-CELERYBEAT_SCHEDULE['blueprints_update_all_locations'] = {
-    'task': 'blueprints.tasks.update_all_locations',
-    'schedule': crontab(minute=0, hour='*/12'),
-}
-
-
 ## Settings for AA-MiningTaxes
 CELERY_RESULT_BACKEND = 'django-db'
 CELERY_CACHE_BACKEND = 'django-cache'
@@ -259,6 +243,7 @@ CELERYBEAT_SCHEDULE['structures_fetch_all_notifications'] = {
 
 
 ## Settings for Structures
+STRUCTURES_FEATURE_STARBASES = False
 CELERYBEAT_SCHEDULE['buybackprogram_update_all_prices'] = {
     'task': 'buybackprogram.tasks.update_all_prices',
     'schedule': crontab(minute=0, hour='0'),
