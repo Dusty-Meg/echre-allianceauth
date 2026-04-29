@@ -244,6 +244,7 @@ CELERYBEAT_SCHEDULE['structures_fetch_all_notifications'] = {
 
 ## Settings for Structures
 STRUCTURES_FEATURE_STARBASES = False
+STRUCTURES_FEATURE_CUSTOMS_OFFICES = False
 CELERYBEAT_SCHEDULE['buybackprogram_update_all_prices'] = {
     'task': 'buybackprogram.tasks.update_all_prices',
     'schedule': crontab(minute=0, hour='0'),
