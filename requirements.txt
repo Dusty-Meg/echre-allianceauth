@@ -3,7 +3,7 @@ git+https://github.com/Solar-Helix-Independent-Transport/allianceauth-corp-tools
 allianceauth-corptools-pinger==1.0.0b4
 aa-charlink==1.13.2
 allianceauth-securegroups==0.10.1
-aa-package-monitor==2.3.0
+aa-package-monitor==3.0.0
 allianceauth-celeryanalytics==0.1.1
 django-eveuniverse==1.6.0 # DUHH  Requires django-eveuniverse
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.24
