@@ -111,6 +111,7 @@ CELERYBEAT_SCHEDULE['package_monitor_update_distributions'] = {
     'schedule': crontab(minute='*/60'),
 }
 PACKAGE_MONITOR_SHOW_ALL_PACKAGES = False
+PACKAGE_MONITOR_EXCLUDE_PACKAGES = ["Django", "django-esi"]
 
 DISCORD_GUILD_ID = os.environ.get("DISCORD_GUILD_ID")
 DISCORD_CALLBACK_URL = f"{SITE_URL}/discord/callback/"
