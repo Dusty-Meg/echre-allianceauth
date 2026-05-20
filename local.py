@@ -130,6 +130,9 @@ CELERYBEAT_SCHEDULE['discord.update_all_usernames'] = {
 JABBERBOT_URL = os.environ.get("JABBERBOT_URL")
 HR_FORUM_WEBHOOK = os.environ.get("HR_FORUM_WEBHOOK")
 
+## Corp tools
+CT_CHAR_MAIL_MODULE = True
+
 ## Settings for AA-MarketManager
 # Market Orders
 CELERYBEAT_SCHEDULE['marketmanager_fetch_public_market_orders'] = {
