@@ -4,7 +4,7 @@ aa-charlink==1.14.0
 allianceauth-securegroups==0.10.1
 aa-package-monitor==3.0.0
 allianceauth-celeryanalytics==0.1.1
-django-eveuniverse==1.6.0 # DUHH  Requires django-eveuniverse
+django-eveuniverse==2.0.0 # DUHH  Requires django-eveuniverse
 git+https://github.com/Dusty-Meg/aa-wizard-misc.git@v0.0.25
 git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.24
 git+https://github.com/Dusty-Meg/aa-wizard-industry.git@prod
