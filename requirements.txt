@@ -1,6 +1,6 @@
 allianceauth-corptools==3.0.0
 allianceauth-corptools-pinger==1.0.0
-aa-charlink==1.13.2
+aa-charlink==1.14.0
 allianceauth-securegroups==0.10.1
 aa-package-monitor==3.0.0
 allianceauth-celeryanalytics==0.1.1
