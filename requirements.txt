@@ -13,7 +13,7 @@ discordproxy==1.4.0
 aa-discordnotify==3.0.0
 # aa-miningtaxes==1.4.36
 git+https://gitlab.com/arctiru/aa-miningtaxes.git
-aa-moonmining==3.0.0 # Requires django-eveuniverse
+aa-moonmining==3.0.1 # Requires django-eveuniverse
 # aa-structures==3.3.1
 git+https://gitlab.com/Dusty-Meg/aa-structures.git
 # aa-structuretimers==2.0.0
