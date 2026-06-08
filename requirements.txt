@@ -10,9 +10,8 @@ git+https://github.com/Dusty-Meg/aa-wizard-skillfarm.git@v0.0.24
 git+https://github.com/Dusty-Meg/aa-wizard-industry.git@prod
 aa-market-manager==2.0.0
 discordproxy==1.4.0
-aa-discordnotify==3.0.0
-# aa-miningtaxes==1.4.36
-git+https://gitlab.com/arctiru/aa-miningtaxes.git
+aa-discordnotify==4.0.0a1
+aa-miningtaxes==2.0.1
 aa-moonmining==3.0.1 # Requires django-eveuniverse
 # aa-structures==3.3.1
 git+https://gitlab.com/Dusty-Meg/aa-structures.git
@@ -25,4 +24,3 @@ aa-bb==3.3.4
 aa-contacts==0.11.1
 django-eveonline-sde==0.0.1b9
 indy-hub==1.17.2
-django-esi==8.4.0 # Until aa base image updates
