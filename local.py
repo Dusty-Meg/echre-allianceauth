@@ -70,6 +70,7 @@ INSTALLED_APPS += [
     'charlink',
     'package_monitor',
     'allianceauth.services.modules.discord',
+    'allianceauth.admin_status',
     'allianceauth.corputils',
     'celeryanalytics',
     'wizardmisc',
