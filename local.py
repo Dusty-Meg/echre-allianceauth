@@ -91,6 +91,7 @@ INSTALLED_APPS += [
     'aa_contacts',
     'eve_sde',
     'indy_hub',
+    'authstats',
 ]
 
 INSTALLED_APPS = ["modeltranslation"] + INSTALLED_APPS
