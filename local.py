@@ -271,3 +271,6 @@ CELERYBEAT_SCHEDULE['aa_contacts_update_all_contacts'] = {
     'schedule': crontab(minute='0'),
     'apply_offset': True,
 }
+
+# AA Indy Hub
+INDY_HUB_DISCORD_DM_ENABLED = False # Stupid thing double pings
