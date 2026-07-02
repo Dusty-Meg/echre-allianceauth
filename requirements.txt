@@ -21,5 +21,5 @@ aa-buybackprogram==3.0.0 # Requires django-eveuniverse
 aa-taskmonitor==1.1.1
 aa-secret-santa==1.0.1
 aa-bb==3.3.5
-aa-contacts==0.11.1
+aa-contacts==1.0.0
 indy-hub==1.17.2
