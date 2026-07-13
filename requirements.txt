@@ -12,7 +12,7 @@ aa-market-manager==3.0.2
 discordproxy==1.5.1
 aa-discordnotify==4.0.1
 aa-miningtaxes==2.0.3
-aa-moonmining==3.0.2 # Requires django-eveuniverse
+aa-moonmining==3.0.3 # Requires django-eveuniverse
 # aa-structures==3.3.1
 git+https://gitlab.com/Dusty-Meg/aa-structures.git
 # aa-structuretimers==2.0.0
