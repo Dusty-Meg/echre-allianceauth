@@ -23,3 +23,4 @@ aa-secret-santa==1.0.1
 aa-bb==3.3.5
 aa-contacts==1.0.0
 indy-hub==1.17.2
+django-eveonline-sde==0.0.1b11
