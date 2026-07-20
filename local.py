@@ -96,7 +96,7 @@ INSTALLED_APPS += [
 ]
 
 INSTALLED_APPS = ["modeltranslation"] + INSTALLED_APPS
-MIDDLEWARE = ['silk.middleware.SilkyMiddleware'] + MIDDLEWARE
+# MIDDLEWARE = ['silk.middleware.SilkyMiddleware'] + MIDDLEWARE
 
 if "eve_sde" in INSTALLED_APPS:
     # Run at 12:00 UTC each day
