@@ -24,3 +24,4 @@ aa-bb==3.3.5
 aa-contacts==1.0.0
 indy-hub==1.17.2
 django-eveonline-sde==0.0.1b11
+django-silk==5.5.0

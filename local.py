@@ -92,9 +92,11 @@ INSTALLED_APPS += [
     'eve_sde',
     'indy_hub',
     'authstats',
+    'silk',.
 ]
 
 INSTALLED_APPS = ["modeltranslation"] + INSTALLED_APPS
+MIDDLEWARE = ['silk.middleware.SilkyMiddleware'] + MIDDLEWARE
 
 if "eve_sde" in INSTALLED_APPS:
     # Run at 12:00 UTC each day
@@ -274,3 +276,10 @@ CELERYBEAT_SCHEDULE['aa_contacts_update_all_contacts'] = {
 
 # AA Indy Hub
 INDY_HUB_DISCORD_DM_ENABLED = False # Stupid thing double pings
+
+# Silk
+SILKY_PYTHON_PROFILER = True
+SILKY_PYTHON_PROFILER_BINARY = True
+SILKY_AUTHENTICATION = True   # restrict silk views to logged-in
+SILKY_AUTHORISATION = True    # and staff-only
+SILKY_PERMISSIONS = lambda user: user.is_superuser
