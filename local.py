@@ -92,7 +92,7 @@ INSTALLED_APPS += [
     'eve_sde',
     'indy_hub',
     'authstats',
-    'silk',.
+    'silk',
 ]
 
 INSTALLED_APPS = ["modeltranslation"] + INSTALLED_APPS
