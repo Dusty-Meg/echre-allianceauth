@@ -93,6 +93,7 @@ INSTALLED_APPS += [
     'indy_hub',
     'authstats',
     'silk',
+    'allianceauth.hrapplications',
 ]
 
 INSTALLED_APPS = ["modeltranslation"] + INSTALLED_APPS
