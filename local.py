@@ -94,6 +94,7 @@ INSTALLED_APPS += [
     'authstats',
     'silk',
     'allianceauth.hrapplications',
+    'hrapps',
 ]
 
 INSTALLED_APPS = ["modeltranslation"] + INSTALLED_APPS
@@ -284,3 +285,7 @@ SILKY_PYTHON_PROFILER_BINARY = True
 SILKY_AUTHENTICATION = True   # restrict silk views to logged-in
 SILKY_AUTHORISATION = True    # and staff-only
 SILKY_PERMISSIONS = lambda user: user.is_superuser
+
+# HRAPPS
+MEDIA_URL = "/media/"
+MEDIA_ROOT = "/var/www/myauth/media/"
