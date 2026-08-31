@@ -20,7 +20,7 @@ git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the cod
 aa-buybackprogram==3.0.0 # Requires django-eveuniverse
 aa-taskmonitor==1.1.1
 aa-secret-santa==1.0.1
-aa-bb==3.3.5
+aa-bb==3.3.6
 aa-contacts==1.0.0
 indy-hub==1.18.3
 django-silk==5.5.2
