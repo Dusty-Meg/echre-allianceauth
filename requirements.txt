@@ -17,7 +17,7 @@ aa-moonmining==3.1.0 # Requires django-eveuniverse
 git+https://gitlab.com/Dusty-Meg/aa-structures.git
 # aa-structuretimers==2.0.0
 git+https://gitlab.com/Dusty-Meg/aa-structuretimers.git # At least until the code is merged 
-aa-buybackprogram==3.0.0 # Requires django-eveuniverse
+aa-buybackprogram==3.1.0 # Requires django-eveuniverse
 aa-taskmonitor==1.1.1
 aa-secret-santa==1.0.1
 aa-bb==3.3.5
