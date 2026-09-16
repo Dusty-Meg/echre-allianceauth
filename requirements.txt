@@ -21,7 +21,7 @@ aa-buybackprogram==3.1.0 # Requires django-eveuniverse
 aa-taskmonitor==1.1.1
 aa-secret-santa==1.0.1
 aa-bb==3.3.5
-aa-contacts==1.0.0
+aa-contacts==1.0.1
 # indy-hub==1.18.3
 git+https://github.com/Dusty-Meg/aa-Indy_Hub@release/1.18.3
 django-silk==5.5.2
