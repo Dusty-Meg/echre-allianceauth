@@ -8,6 +8,8 @@ registries:
 updates:
   - package-ecosystem: "docker"
     directory: "/"
+    registries:
+      - gitlab
     schedule:
       interval: "weekly"
   - package-ecosystem: "pip"
