@@ -1,4 +1,10 @@
 version: 2
+registries:
+  gitlab:
+    type: docker-registry
+    url: https://registry.gitlab.com
+    username: dusty-meg
+    password: ${{secrets.GITLAB_REGISTRY_TOKEN}}
 updates:
   - package-ecosystem: "docker"
     directory: "/"
