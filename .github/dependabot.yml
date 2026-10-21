@@ -1,4 +1,8 @@
 version: 2
+registries:
+  gitlab:
+    type: docker-registry
+    url: https://registry.gitlab.com
 updates:
   - package-ecosystem: "docker"
     directory: "/"
