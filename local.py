@@ -82,8 +82,6 @@ INSTALLED_APPS += [
     'miningtaxes',
     'django_celery_results',
     'moonmining',
-    'structuretimers',
-    'structures',
     'buybackprogram',
     'taskmonitor',
     'secretsanta',
