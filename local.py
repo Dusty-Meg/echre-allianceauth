@@ -93,6 +93,7 @@ INSTALLED_APPS += [
     'silk',
     'allianceauth.hrapplications',
     'hrapps',
+    'allianceauth.impersonate',
 ]
 
 INSTALLED_APPS = ["modeltranslation"] + INSTALLED_APPS
