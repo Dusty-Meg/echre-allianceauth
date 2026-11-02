@@ -12,7 +12,7 @@ aa-market-manager==3.1.0
 discordproxy==1.5.1
 aa-discordnotify==4.0.1
 aa-miningtaxes==2.0.4
-aa-moonmining==3.2.0 # Requires django-eveuniverse
+aa-moonmining==3.2.0 # Requires django-eveuniverse 
 aa-buybackprogram==3.1.0 # Requires django-eveuniverse
 aa-taskmonitor==1.1.1
 aa-secret-santa==1.0.1
