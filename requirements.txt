@@ -22,3 +22,4 @@ aa-contacts==1.0.2
 git+https://github.com/Dusty-Meg/aa-Indy_Hub@release/1.18.3
 django-silk==5.6.0
 aa-hrapps==1.0.4
+httpx==0.28.1 # for now
